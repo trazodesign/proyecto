@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box'
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #FAFAFA;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 30px 0;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 24px;
+}
+
+.box {
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box:not(:last-child) {
+    margin-bottom: 25px;
+}
